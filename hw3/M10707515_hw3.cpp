@@ -13,7 +13,7 @@ public:
 	void destroy();
 	void init(int size);
 };
-void main()
+int main()
 {	// obtain the matrix size from user
 	int size;
 	cout << "Please input the size of the square matrix." << endl;
@@ -53,6 +53,7 @@ void main()
 	// call destroy to free the object
 	m.destroy();
 	system("pause");
+	return 0;
 }
 void matrix::init(int size) {
 	int data;

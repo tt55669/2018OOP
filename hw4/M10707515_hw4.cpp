@@ -19,7 +19,7 @@ public:
 	matrix& operator=(const matrix& m);
 };
 
-void main()
+int main()
 {
 	// obtain the matrix size from user
 	int size;
@@ -74,6 +74,7 @@ void main()
 	delete[] mArr1;
 	delete m2;
 	system("pause");
+	return 0 ;
 }
 void matrix::setElement(int i, int j, int value)
 {

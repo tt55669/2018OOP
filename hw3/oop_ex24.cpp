@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void main()
+int main()
 {
 	// obtain the matrix size from user
 	int size;
@@ -40,5 +40,6 @@ void main()
 	delete [] m;
 
 	system("pause");
+	return 0;
 }
 
